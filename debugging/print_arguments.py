@@ -2,6 +2,6 @@
 
 import sys
 
-for i, arg in enumerate(sys.argv):
-    print(f"Argument {i}: {arg}")
+for i in range(1,len(sys.argv)):
+    print(sys.argv[i])
 
